@@ -1,0 +1,58 @@
+.footer {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    padding: 5vh;
+    width: 100vw;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.footerLeft {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 30vw;
+    padding: 20px;
+    justify-items:flex-start;
+}
+
+.cookie {
+    max-width: 35px;
+    max-height: 35px;
+    display: inline-flex;
+}
+
+.rottenCookies {
+    margin-left: 5px;
+    font-size: 30px;
+    display: inline-flex;
+}
+
+.footerCenter {
+    /* border: 2px solid red; */
+    align-self: center;
+    margin: 1em;
+    max-width: fit-content;
+}
+
+.footerTop {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    max-height: 60px;
+    width: 20vw;
+    margin: 1em;
+    justify-content: space-between;
+}
+
+.social {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.footerBottom {
+    /* border: 2px solid purple; */
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+}

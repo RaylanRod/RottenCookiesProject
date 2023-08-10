@@ -1,0 +1,35 @@
+#top-carousel {
+    background-color: rgb(22, 22, 22);
+}
+
+/* img {
+    display: block;
+    max-width: 20vw;
+    position: relative;
+} */
+
+.carousel-img-adj {
+    width:100%;
+    object-fit: fill;
+}
+
+.size-adj {
+    width: auto;
+    height: 275px;
+}
+.place-holder-img {
+    width:100%;
+    object-fit: cover;
+}
+
+.height-adj {
+    height: 35vh;
+}
+
+.item-width-adj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
